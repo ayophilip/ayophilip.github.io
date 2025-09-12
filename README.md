@@ -5,7 +5,7 @@ layout: page
 ---
 
 ## Github Pages
-
+```
 Just fork this [repository](https://github.com/niklasbuschmann/contrast) to `your_username.github.io` and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
 
 ## Features
@@ -21,14 +21,14 @@ Just fork this [repository](https://github.com/niklasbuschmann/contrast) to `you
 ## Installation
 
 To run locally [install Ruby](https://www.ruby-lang.org/en/documentation/installation/) and then run:
-
+```
 ```
 git clone https://github.com/niklasbuschmann/contrast.git
 cd contrast
 gem install bundler jekyll jekyll-feed
 bundle exec jekyll serve
 ```
-
+```
 ## Config
 
 Your `_config.yml` could for example look like this:
@@ -67,7 +67,7 @@ comments:
 plugins:
  - jekyll-feed
 ```
-
+```
 ## Math
 
 Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter. [Jektex](https://github.com/yagarea/jektex) can be used to pre-render math on the server side.
@@ -85,3 +85,4 @@ Contrast comes preinstalled with a leightweight alternative to MathJax called [K
 ![screenshot](https://github.com/user-attachments/assets/d31879ae-7113-42be-b580-1e96a2aedd29)
 
 ![screenshot](https://github.com/user-attachments/assets/d524ce47-8d8c-473e-afc6-79b34fae63e8)
+```
